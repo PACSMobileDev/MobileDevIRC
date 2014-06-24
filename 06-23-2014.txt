@@ -1,0 +1,117 @@
+(21:11:07) (KenCompSciFox) I'm working on getting us a non-profit Pivotal tracker account for PACS.
+(21:11:35) (KenCompSciFox) I have to emali Don Arrowsmith. Keep an eye out for everyone.
+(21:11:52) (KenCompSciFox) I'll also send out a reminder email to the SIG members in a second
+(21:12:06) (MDTech-us_MAN) ok
+(21:15:09) (KenCompSciFox) reminder sent -- keep an eye out for late joiners
+(21:16:57) • Pacs_User (45fd52fe@gateway/web/freenode/ip.69.253.82.254) has joined #pacsandroidsig
+(21:20:18) (Pacs_User) VVV DE KB3UI Testing
+(21:21:06) • Pacs_User is now known as KB3UI
+(21:22:24) (KenCompSciFox) hi russ
+(21:22:51) (KB3UI) Hi Ken and Max. Just got back from a medical appointment and saw your e-mails.
+(21:23:32) (KenCompSciFox) I was just asking don about setting up a pivotal tracker account as PACS -- this would be for our task and activity managenment within the SIG and on each project.
+(21:23:51) (KenCompSciFox) I was putting in replacement proch steps...
+(21:24:01) (KenCompSciFox) and work
+(21:26:56) (KB3UI) Not sure Don's involvement unless it's using the name PACS. If you use PAACSMobileDev I don't think there would be a conflict with anything else.
+(21:27:54) (KenCompSciFox) I would need to sign up as PACS and provide pacsnet.org and some other info -- I figured I'd ask first since there's no hurry
+(21:28:26) (KenCompSciFox) https://www.pivotaltracker.com/faq#istrackerreallyfreeforpublicprojectsindividualusenonprofitsandeducators
+(21:30:13) (KB3UI) I see what you mean. Yes, probably Don would have to bring this to the PACS Board. While I think there's very little chance anyone would have any problems with this, they'd need some time to discuss it.
+(21:34:29) (MDTech-us_MAN) would you like me to upload the progress I made with the app?
+(21:34:45) (KB3UI) I'm looking tonight at Git's Bootcamp tutorial, unless Pivotal Tracker would replace Git. PACS is a non-profit organization, so it should qualify for that plan with Pivotal Tracker
+(21:35:24) (KB3UI) Hi, Max. Are you talking about the calculator app?
+(21:35:30) (MDTech-us_MAN) yes
+(21:36:37) (KB3UI) Of course we'd love to hear what you've done.
+(21:37:01) (KenCompSciFox) Max - go ahead and push your calculator app stuff to github
+(21:39:24) (KenCompSciFox) Pivotal tracker is a management tool; but it links to github among other things. The idea is to practice agile development techiniques while we're working on learning android. the advantage of a tool like pivotal is that any of us can push feature requests into the "backlog" -- it allows us each to contribute as much or as little as we have the ability to do at any given point in time
+(21:39:24) (KenCompSciFox) while allowing everyone to see what needs to be done
+(21:39:43) (KenCompSciFox) www.pivotaltracker.com
+(21:39:45) (KB3UI) Now I'll have something to look for once I've learned how to use Github. I'm reading the Git beginning tutorial right now.
+(21:40:07) (KB3UI) Sounds as if both Pivotal Tracker and Github complement each other for what we want to do.
+(21:40:08) (KenCompSciFox) also look at personal kanban for ideas about scrum
+(21:40:09) (MDTech-us_MAN) I will upload it somewhere else for now
+(21:40:17) (MDTech-us_MAN) it does not work for now
+(21:40:19) (KenCompSciFox) exactly
+(21:40:27) (KB3UI) Github doesn't work, Max?
+(21:40:38) (MDTech-us_MAN) no. the app
+(21:41:02) (KB3UI) Of course the calculator app doesn't work yet - we're only just getting started :)
+(21:41:03) (KenCompSciFox) also first rule of scrum is don't PUSH anything that doesn't work.
+(21:41:26) (MDTech-us_MAN) here is a download link
+(21:41:31) (MDTech-us_MAN) https://www.mediafire.com/folder/undefined/
+(21:41:38) (MDTech-us_MAN) ug
+(21:41:40) (MDTech-us_MAN) one sec
+(21:41:41) (KenCompSciFox) right but what he pushes should work in some manner with whatever isntructions even if not complete.
+(21:41:42) (KB3UI) I see what Max is saying. It's only going to be for completed work.
+(21:42:07) (MDTech-us_MAN) http://www.mediafire.com/download/v394arts1kgvuts/PACSCalculator.zip
+(21:42:09) (MDTech-us_MAN) there
+(21:43:00) (KenCompSciFox) for instance if someone writes a function to add two numbers together, there should be test code (driver) that will show how it works and demonstrate that it gives the correct result --> e.g.: 5 + 7 = 12, not 5 + 7 = 11.
+(21:43:34) (KenCompSciFox) or -2
+(21:43:52) (KB3UI) What if someone puts something together that doesn't work. Wouldn't it be useful for others to acces the code so that we can help each other get code working?
+(21:45:47) (KB3UI) Also, Max's link apparently is a zipped file. Is that something that could have been uploaded to Github instead?
+(21:45:53) (KenCompSciFox) we'll have to work on the concepts a little.
+(21:46:06) (KB3UI) Of course!
+(21:46:11) (KenCompSciFox) generally want to upload a source tree using the git command line.
+(21:46:44) (MDTech-us_MAN) I just dont want to upload it if it doesnt work yet
+(21:46:48) (KenCompSciFox) you'll need to install git on your laptop or desktop (git is on Mac, Win, Linux -- take your pick)
+(21:47:40) (KenCompSciFox) identify a working directory for source code, then do a "git init" which will initilize a repository in that directory.
+(21:48:34) (KenCompSciFox) then we cna do a git clone .. I'll work on directions for that for next monday -- i've done it before but I don't recall off the top of my head.
+(21:48:43) (KB3UI) Max, I understand. But if we go off into too many directions, it might cause some confusion. We probably should agree on first using git, and then once something gets operational, pivotal tracker, unless there's a reason to go otherwise.
+(21:50:12) (KB3UI) Max, of course it's the work you've done that's most important, not the medium on which it's uploaded.
+(21:52:07) (KenCompSciFox) Remember that pivotal tracker (pivotal) and Github (git) serve two different functions -- pivotal is a collaborative todo list of sorts and git is a source code control or revision control system.
+(21:53:04) (KB3UI) Yes, I now understand. I'm now installing the Git client application on my notebook computer, selecting the defaults as the tutorial suggests.
+(21:53:10) (MDTech-us_MAN) (21:41:03) (KenCompSciFox) also first rule of scrum is don't PUSH anything that doesn't work.
+(21:53:35) (MDTech-us_MAN) that is why i didnt want to push to git
+(21:54:22) (KB3UI) Does everything on Git have to be working code, as opposed to pivotal tracker?
+(21:54:45) (KenCompSciFox) you can store ANYTHING in git and it will know when a change has been made to it. You should play with some git tutorials during the week -- version control is so helpful in so many arenas--- configuration files for isntance.
+(21:56:24) (KB3UI) I will play with Git. I just wanted to get it installed while you're online in case I have any problems or questions with the installation.
+(21:56:25) (KenCompSciFox) generally code PUSHED to the main github trunk should be working code ; however, what you work on locally does not have to be -- I'll need to put something together about how to use version control for next week.
+(21:56:56) (MDTech-us_MAN) ok
+(21:57:02) (KB3UI) Ok, Ken and Max, I see. That would be helpful, Ken.
+(21:57:33) (MDTech-us_MAN) so, do you want me to push the non-working code?
+(21:57:50) (MDTech-us_MAN) I will now go back to working on it
+(21:58:34) (KenCompSciFox) the idea is that you check out a copy to work on, make some minor changes, test that hey work right, then push the working code up to the mater respository. typically, you pull or update before a push to merge the changes you made tot he source code tree with changes other people may have made ... then we get into "conflicts" hence my desire to prep something for next week so it's
+(21:58:35) (KenCompSciFox) organized and not of the cuff ..
+(21:59:06) (KB3UI) Ok Ken. Whatever you decide will be fine with at least me, and I hope Max.
+(22:00:22) (MDTech-us_MAN) yes . of course
+(22:00:33) (KenCompSciFox) Max -- go ahead and push what you have if you can -- you may need to do a git clone from the repo first; then put youre files and diectories into the clone, then do a git add & a git commit follwoed by a git push .
+(22:00:47) (KB3UI) "Use Git from Git Bash only"? I'm installing Git in Windows.
+(22:00:48) (MDTech-us_MAN) I gnow
+(22:00:51) (MDTech-us_MAN) *know
+(22:00:55) (MDTech-us_MAN) I used git before
+(22:01:14) (KenCompSciFox) @ russ git works from cmd.exe
+(22:01:34) (KenCompSciFox) @max also for russ' benefit
+(22:01:48) (KB3UI) "Use git from command prompt" is another option.
+(22:02:00) (KenCompSciFox) @ max let me know fi you run into permissions issues
+(22:02:24) (MDTech-us_MAN) ok
+(22:02:45) (MDTech-us_MAN) KenCompSciFox
+(22:03:01) (KB3UI) Use Git from Git Bash only is the safest option, so unless either of you suggests otherwise, I'll choose that.
+(22:03:13) (KenCompSciFox) Russ - you should be able to clone, push, and so forth from a gui or command prompt. command prompt is also known as CLI if you weren't aware.
+(22:03:42) (MDTech-us_MAN) in mIRC, there is a feature where you can start typing someones nick and press Tab and it will autocomplete
+(22:03:43) (KenCompSciFox) command prompt will get you more respect int he Linux/unix world...
+(22:03:56) (MDTech-us_MAN) I always use the command prompt version
+(22:04:34) (KB3UI) Ok, then "Use Git from the Windows Command Prompt" it will be - I also want to be compatible with what you guys are doing.
+(22:05:55) (KenCompSciFox) russ - no difference in the end effect - gui is just a wrapper for the commands available in git -- an advantage of the CLI is that you can do things that the GUI might not have
+(22:06:15) (MDTech-us_MAN) are you downloading GIT for Windows
+(22:06:51) (KenCompSciFox) Russ & Max -- It's 10pm I have to drop off and do other stuff. I'll check back in later if I get the chance.
+(22:06:59) (KB3UI) "Checkout Windows style, commit Unix-style line endings" or "Checkout as-is, commit Unix-style line endings"? Yes, I'm downloading Git for Windows.
+(22:07:22) (KB3UI) Any non-default options I should be aware of before you go, Ken?
+(22:07:51) (MDTech-us_MAN) KB3UI
+(22:07:52) (MDTech-us_MAN) Checkout Windows style, commit Unix-style line endings
+(22:07:54) (MDTech-us_MAN) use that
+(22:07:59) (MDTech-us_MAN) I used it
+(22:08:09) (KB3UI) I have a feeling it's probably not critical, and probably can change them later if needed.
+(22:08:27) (KB3UI) Max, thanks - that's the answer I was looking for. It's also the default as the tutorial suggests.
+(22:08:36) (MDTech-us_MAN) ok
+(22:08:48) (KB3UI) That's it - it's now installing. Thanks!
+(22:09:05) (MDTech-us_MAN) http://www.dalsoft.co.uk/blog/index.php/2011/08/30/getting-started-with-git-on-windows/#The_basics
+(22:09:21) (MDTech-us_MAN) a bit of a reference guide
+(22:10:19) (KB3UI) Max, is there anyway with IRC to get a transcript of tonight's chat by e-mail or otherwise? Guess I could just copy and paste everything into a text document.
+(22:10:31) (MDTech-us_MAN) I will do it
+(22:10:48) (MDTech-us_MAN) I have a special script that will do it
+(22:11:18) (KB3UI) Not surprised :) Thanks - that would be helpful. The installation is finished, so everything is done.
+(22:11:32) (MDTech-us_MAN) ok
+(22:12:40) (MDTech-us_MAN) KB3UI KenCompSciFox
+(22:13:07) (KB3UI) "Git" is a colloquial (mainly southern US) term that means "get". Often used as "Git out!"
+(22:13:12) (MDTech-us_MAN) how about I create a special folder on git under a different project and upload trasnscripts there?
+(22:13:51) (KB3UI) That sounds like a great idea. At least for the time being. Ken can change things if he wants to later.
+(22:13:52) (MDTech-us_MAN) I could name the project MobileDevIRC
+(22:14:03) (KB3UI) That would be a perfect name.
+(22:32:26) (KB3UI) I guess I'm going to call it a night and log off. I think we're all on the right track.
